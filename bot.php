@@ -83,9 +83,9 @@ if ($type == 'join' || $command == '/menu') {
 
 //pesan bergambar
 if($message['type']=='text') {
-	    if ($command == '/shalat') {
+	    if ($command == '/kota') {
 
-        $result = shalat($options);
+        $result = kota($options);
         $balas = array(
             'replyToken' => $replyToken,
             'messages' => array(
