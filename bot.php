@@ -69,7 +69,7 @@ function kota($keyword) {
 
 //show menu, saat join dan command /menu
 if ($type == 'join' || $command == '/menu') {
-    $text = "Assalamualaikum Kakak, aku adalah bot jadwal shalat, silahkan ketik\n\n/kota <nama tempat>\n\nnanti aku bakalan kasih tahu jam berapa waktunya shalat ^_^";
+    $text = "Assalamu'alaikum, saya adalah bot jadwal sholat, silahkan ketik\n\n/kota <spasi> nama kota\n\ncontoh: /kota bandung\n\nnanti saya kasih tau jam berapa waktunya sholat ^_^";
     $balas = array(
         'replyToken' => $replyToken,
         'messages' => array(
@@ -104,7 +104,7 @@ if($message['type']=='text') {
 							'messages' => array(
 								array(
 										'type' => 'text',									
-										'text' => 'Makasih Kak Stikernya ^_^'										
+										'text' => 'Makasih stikernya ^_^'										
 									
 									)
 							)
